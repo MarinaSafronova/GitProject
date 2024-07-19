@@ -1,20 +1,23 @@
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/helvetica.woff2) format("woff2"),url(../fonts/helvetica.woff) format("woff"),url(../fonts/helvetica.ttf) format("trutype");
+  src: url(../fonts/helvetica.woff2) format("woff2"),url(../fonts/helvetica.woff) format("woff");
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
+  font-display: swap
 }
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/helvetica-bold.woff2) format("woff2"),url(../fonts/helvetica-bold.woff) format("woff"),url(../fonts/helvetica-bold.ttf) format("trutype");
+  src: url(../fonts/helvetica-bold.woff2) format("woff2"),url(../fonts/helvetica-bold.woff) format("woff");
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
+  font-display: swap
 }
 @font-face {
   font-family: Quicksand;
-  src: url(../fonts/Quicksand-Medium.woff2) format("woff2"),url(../fonts/Quicksand-Medium.woff) format("woff"),url(../fonts/Quicksand-Medium.ttf) format("trutype");
+  src: url(../fonts/Quicksand-Medium.woff2) format("woff2"),url(../fonts/Quicksand-Medium.woff) format("woff");
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
+  font-display: swap
 }
 * {
   padding: 0;
